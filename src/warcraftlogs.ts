@@ -123,3 +123,4 @@ const fetchReportFights = async (
 };
 
 export { fetchGuildReports, fetchReportFights };
+export { IReportFights, IReport };

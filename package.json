@@ -7,7 +7,7 @@
   "author": "Elie Rotenberg <elie@rotenberg.io>",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf build && tslint -p . && tsc",
+    "build": "tsc",
     "start": "node dist/index.js"
   },
   "devDependencies": {
